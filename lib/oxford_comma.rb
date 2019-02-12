@@ -3,4 +3,6 @@ def oxford_comma(array)
     puts array
    elsif array.length == 2
     puts array.split(" and ")
+  else
+  end
 end
