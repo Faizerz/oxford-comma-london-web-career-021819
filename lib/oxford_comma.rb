@@ -5,8 +5,7 @@ def oxford_comma(array)
     return array.join(" and ")
   else
     counter = 1
-    when counter < array.length
-      
-    return array.join(", ")
+    when counter < array.length-1
+      array.join(", ")
   end
 end
